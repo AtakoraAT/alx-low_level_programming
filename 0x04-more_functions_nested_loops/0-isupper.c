@@ -1,24 +1,18 @@
 #include "main.h"
 
-#include <stdio.h>
-
 /**
- * int_isupper(int c) - entry point which checks the code
- *
- * @c - is the variable
- * Return: always 0 (success)
+ * _isupper - checks if parameter is an uppercase character.
+ * @c: input character.
+ * Return: 1 if is an uppercase character, 0 in other case.
  */
-
 int _isupper(int c)
-
 {
-	char c;
-
-	c = 'A';
-
-		_putchar("%c : %d\n", c, _isupper(c));
-	c = 'a';
-		_putchar("%c : %d\n", c, _isupper(c));
+	if (c >= 65 && c <= 90)
+{
+	return (1);
+}
+	else
+{
 	return (0);
-
+}
 }
