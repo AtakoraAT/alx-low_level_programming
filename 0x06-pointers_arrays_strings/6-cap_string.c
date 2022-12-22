@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * cap_string -capitalizes words
  * @str: string
@@ -32,5 +31,6 @@ char *cap_string(char *str)
 
 		i++;
 	}
+
 	return (str);
 }
